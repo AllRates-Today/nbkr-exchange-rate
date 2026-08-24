@@ -1,0 +1,57 @@
+{
+  "name": "nbkr-exchange-rate",
+  "version": "1.2.7",
+  "description": "Official National Bank of the Kyrgyz Republic (Kyrgyzstan) daily exchange rates — 48 currencies vs KGS, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "nbkr",
+    "national",
+    "bank",
+    "of",
+    "the",
+    "kyrgyz",
+    "republic",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "kgs",
+    "central-bank",
+    "official-rates",
+    "kyrgyzstan",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/nbkr/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/nbkr-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/nbkr-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
