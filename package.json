@@ -1,6 +1,6 @@
 {
   "name": "nbkr-exchange-rate",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Official National Bank of the Kyrgyz Republic (Kyrgyzstan) daily exchange rates — 48 currencies vs KGS, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "nbkr",
