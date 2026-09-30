@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'KGS', { apiKey: 'art_live_...' });
 {
   bank: 'nbkr',
   name: 'National Bank of the Kyrgyz Republic',
-  rate_date: '2026-09-09',   // National Bank of the Kyrgyz Republic's own publication date
+  rate_date: '2026-09-25',   // National Bank of the Kyrgyz Republic's own publication date
   source: 'USD',
   target: 'KGS',
-  rate: 87.45,
+  rate: 87.4497,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbkr',
   name: 'National Bank of the Kyrgyz Republic',
-  rate_date: '2026-09-09',
+  rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "KGS", "type": "reference", "value": 87.45 },
+    { "base": "USD", "quote": "KGS", "type": "reference", "value": 87.4497 },
     // … the rest of the published table (48 currencies vs KGS)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbkr-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'KGS', from: '2026-01-01', to: '2026-09-09' },
+  { source: 'USD', target: 'KGS', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'KGS',
   from: '2026-01-01',
-  to: '2026-09-09',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-09', rate: 87.45, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 87.4497, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
