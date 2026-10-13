@@ -42,53 +42,15 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-10** by National Bank of the Kyrgyz Republic — 43 rates. Updated 2026-10-12.
+Published **2026-10-13** by National Bank of the Kyrgyz Republic — 5 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KGS | reference | 23.8108 |
-| AFN | KGS | reference | 1.3483 |
-| AMD | KGS | reference | 0.24159 |
-| AUD | KGS | reference | 61.0226 |
-| AZN | KGS | reference | 51.4412 |
-| BHD | KGS | reference | 231.5943 |
-| BRL | KGS | reference | 17.4264 |
-| BYN | KGS | reference | 28.5439 |
-| BYR | KGS | reference | 0.003402 |
-| CAD | KGS | reference | 61.4741 |
-| CHF | KGS | reference | 105.241 |
-| CZK | KGS | reference | 4.0292 |
-| DKK | KGS | reference | 13.1283 |
-| GBP | KGS | reference | 115.7794 |
-| GEL | KGS | reference | 33.6101 |
-| HKD | KGS | reference | 11.1436 |
-| HUF | KGS | reference | 0.26898 |
-| IDR | KGS | reference | 0.00489 |
-| INR | KGS | reference | 0.9037 |
-| IRR | KGS | reference | 0.000049 |
-| JPY | KGS | reference | 0.55301 |
-| KRW | KGS | reference | 0.0652 |
-| KWD | KGS | reference | 283.7904 |
-| MDL | KGS | reference | 4.8854 |
-| MNT | KGS | reference | 0.0243 |
-| MYR | KGS | reference | 21.4023 |
-| NOK | KGS | reference | 9.1394 |
-| NZD | KGS | reference | 49.0638 |
-| OMR | KGS | reference | 227.137 |
-| PKR | KGS | reference | 0.3158 |
-| PLN | KGS | reference | 22.4176 |
-| SAR | KGS | reference | 23.2933 |
-| SEK | KGS | reference | 8.781 |
-| SGD | KGS | reference | 68.315 |
-| THB | KGS | reference | 2.6081 |
-| TJS | KGS | reference | 9.4659 |
-| TMT | KGS | reference | 24.9857 |
-| TRY | KGS | reference | 1.7723 |
-| TWD | KGS | reference | 2.7395 |
-| UAH | KGS | reference | 1.9497 |
-| UZS | KGS | reference | 0.00738 |
-| VND | KGS | reference | 0.00338 |
-| XDR | KGS | reference | 118.2188 |
+| CNY | KGS | reference | 13.0662 |
+| EUR | KGS | reference | 97.8828 |
+| KZT | KGS | reference | 0.1936 |
+| RUB | KGS | reference | 1.0346 |
+| USD | KGS | reference | 87.45 |
 
 Source: [Official rates published by NBKR, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbkr/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
