@@ -33,24 +33,70 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/nbkr').th
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest National Bank of the Kyrgyz Republic table](https://allratestoday.com/api/open/central-bank/nbkr/table.svg)](https://allratestoday.com/central-bank-rates-api/nbkr/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by National Bank of the Kyrgyz Republic — 5 rates. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-17 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| CNY | KGS | reference | 13.0689 |
-| EUR | KGS | reference | 98.0839 |
-| KZT | KGS | reference | 0.1926 |
-| RUB | KGS | reference | 1.0409 |
+| AED | KGS | reference | 23.8108 |
+| AFN | KGS | reference | 1.3468 |
+| AMD | KGS | reference | 0.24192 |
+| AUD | KGS | reference | 60.8696 |
+| AZN | KGS | reference | 51.4412 |
+| BHD | KGS | reference | 231.5023 |
+| BRL | KGS | reference | 17.1523 |
+| BYN | KGS | reference | 29.0618 |
+| BYR | KGS | reference | 0.003402 |
+| CAD | KGS | reference | 61.7476 |
+| CHF | KGS | reference | 106.1093 |
+| CNY | KGS | reference | 13.0777 |
+| CZK | KGS | reference | 4.041 |
+| DKK | KGS | reference | 13.1549 |
+| EUR | KGS | reference | 98.3375 |
+| GBP | KGS | reference | 116.549 |
+| GEL | KGS | reference | 33.6514 |
+| HKD | KGS | reference | 11.143 |
+| HUF | KGS | reference | 0.27068 |
+| IDR | KGS | reference | 0.00486 |
+| INR | KGS | reference | 0.9208 |
+| IRR | KGS | reference | 0.000049 |
+| JPY | KGS | reference | 0.55346 |
+| KRW | KGS | reference | 0.0656 |
+| KWD | KGS | reference | 283.7904 |
+| KZT | KGS | reference | 0.1934 |
+| MDL | KGS | reference | 4.879 |
+| MNT | KGS | reference | 0.0243 |
+| MYR | KGS | reference | 21.4233 |
+| NOK | KGS | reference | 9.2532 |
+| NZD | KGS | reference | 49.5798 |
+| OMR | KGS | reference | 227.137 |
+| PKR | KGS | reference | 0.3159 |
+| PLN | KGS | reference | 22.5256 |
+| RUB | KGS | reference | 1.0449 |
+| SAR | KGS | reference | 23.3032 |
+| SEK | KGS | reference | 8.8387 |
+| SGD | KGS | reference | 68.331 |
+| THB | KGS | reference | 2.6175 |
+| TJS | KGS | reference | 9.4683 |
+| TMT | KGS | reference | 24.9857 |
+| TRY | KGS | reference | 1.7657 |
+| TWD | KGS | reference | 2.6986 |
+| UAH | KGS | reference | 1.9482 |
 | USD | KGS | reference | 87.45 |
+| UZS | KGS | reference | 0.00728 |
+| VND | KGS | reference | 0.00338 |
+| XDR | KGS | reference | 118.4077 |
+
+</details>
 
 Source: [Official rates published by NBKR, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbkr/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -323,7 +369,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/nbkr-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/nbkr-exchange-rate)
 
 ## 📜 License
