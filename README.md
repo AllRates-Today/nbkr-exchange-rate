@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-30 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -62,10 +62,10 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | BYR | KGS | reference | 0.003402 |
 | CAD | KGS | reference | 62.3942 |
 | CHF | KGS | reference | 106.2494 |
-| CNY | KGS | reference | 13.1183 |
+| CNY | KGS | reference | 13.1275 |
 | CZK | KGS | reference | 4.0266 |
 | DKK | KGS | reference | 13.0926 |
-| EUR | KGS | reference | 97.2866 |
+| EUR | KGS | reference | 97.4083 |
 | GBP | KGS | reference | 116.9756 |
 | GEL | KGS | reference | 33.669 |
 | HKD | KGS | reference | 11.1515 |
@@ -76,7 +76,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | JPY | KGS | reference | 0.5578 |
 | KRW | KGS | reference | 0.066 |
 | KWD | KGS | reference | 283.924 |
-| KZT | KGS | reference | 0.1912 |
+| KZT | KGS | reference | 0.1927 |
 | MDL | KGS | reference | 4.8554 |
 | MNT | KGS | reference | 0.0243 |
 | MYR | KGS | reference | 21.4125 |
@@ -85,7 +85,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | OMR | KGS | reference | 227.1274 |
 | PKR | KGS | reference | 0.316 |
 | PLN | KGS | reference | 22.2756 |
-| RUB | KGS | reference | 1.0918 |
+| RUB | KGS | reference | 1.0871 |
 | SAR | KGS | reference | 23.2997 |
 | SEK | KGS | reference | 8.7981 |
 | SGD | KGS | reference | 68.4101 |
@@ -95,7 +95,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | TRY | KGS | reference | 1.7582 |
 | TWD | KGS | reference | 2.6831 |
 | UAH | KGS | reference | 1.9411 |
-| USD | KGS | reference | 87.4486 |
+| USD | KGS | reference | 87.448 |
 | UZS | KGS | reference | 0.00728 |
 | VND | KGS | reference | 0.00338 |
 | XDR | KGS | reference | 118.5792 |
@@ -263,6 +263,7 @@ The National Bank of the Kyrgyz Republic sets official som exchange rates each w
 
 - Publisher's own page: [Official exchange rates](https://www.nbkr.kg/index1.jsp?item=1562&lang=ENG) · [www.nbkr.kg](https://www.nbkr.kg)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [National Bank of the Kyrgyz Republic rates page](https://allratestoday.com/central-bank-rates-api/nbkr/)
+- In the API: usually by **10:20 UTC** (measured over the last 12 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
