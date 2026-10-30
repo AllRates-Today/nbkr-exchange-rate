@@ -24,81 +24,66 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest National Bank of the Kyrgyz Republic table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/nbkr?source=USD&target=KGS"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/nbkr').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest National Bank of the Kyrgyz Republic table](https://allratestoday.com/api/open/central-bank/nbkr/table.svg)](https://allratestoday.com/central-bank-rates-api/nbkr/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-30 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-31 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KGS | reference | 23.8104 |
-| AFN | KGS | reference | 1.3468 |
-| AMD | KGS | reference | 0.24202 |
-| AUD | KGS | reference | 61.3364 |
+| AED | KGS | reference | 23.8079 |
+| AFN | KGS | reference | 1.3447 |
+| AMD | KGS | reference | 0.24271 |
+| AUD | KGS | reference | 61.4939 |
 | AZN | KGS | reference | 51.4404 |
-| BHD | KGS | reference | 231.8362 |
-| BRL | KGS | reference | 17.3075 |
-| BYN | KGS | reference | 29.6004 |
+| BHD | KGS | reference | 231.5908 |
+| BRL | KGS | reference | 16.2488 |
+| BYN | KGS | reference | 29.6819 |
 | BYR | KGS | reference | 0.003402 |
-| CAD | KGS | reference | 62.3942 |
-| CHF | KGS | reference | 106.2494 |
-| CNY | KGS | reference | 13.1275 |
-| CZK | KGS | reference | 4.0266 |
-| DKK | KGS | reference | 13.0926 |
-| EUR | KGS | reference | 97.4083 |
-| GBP | KGS | reference | 116.9756 |
-| GEL | KGS | reference | 33.669 |
-| HKD | KGS | reference | 11.1515 |
-| HUF | KGS | reference | 0.26673 |
-| IDR | KGS | reference | 0.00485 |
-| INR | KGS | reference | 0.9208 |
-| IRR | KGS | reference | 0.000048 |
-| JPY | KGS | reference | 0.5578 |
-| KRW | KGS | reference | 0.066 |
-| KWD | KGS | reference | 283.924 |
+| CAD | KGS | reference | 62.6221 |
+| CHF | KGS | reference | 106.4176 |
+| CNY | KGS | reference | 13.1436 |
+| CZK | KGS | reference | 4.0223 |
+| DKK | KGS | reference | 13.0985 |
+| EUR | KGS | reference | 97.8944 |
+| GBP | KGS | reference | 117.3081 |
+| GEL | KGS | reference | 33.6872 |
+| HKD | KGS | reference | 11.1458 |
+| HUF | KGS | reference | 0.26764 |
+| IDR | KGS | reference | 0.00482 |
+| INR | KGS | reference | 0.92 |
+| IRR | KGS | reference | 0.000047 |
+| JPY | KGS | reference | 0.55578 |
+| KRW | KGS | reference | 0.0655 |
+| KWD | KGS | reference | 283.6941 |
 | KZT | KGS | reference | 0.1927 |
-| MDL | KGS | reference | 4.8554 |
+| MDL | KGS | reference | 4.8484 |
 | MNT | KGS | reference | 0.0243 |
-| MYR | KGS | reference | 21.4125 |
-| NOK | KGS | reference | 9.3457 |
-| NZD | KGS | reference | 49.7058 |
-| OMR | KGS | reference | 227.1274 |
-| PKR | KGS | reference | 0.316 |
-| PLN | KGS | reference | 22.2756 |
-| RUB | KGS | reference | 1.0871 |
-| SAR | KGS | reference | 23.2997 |
-| SEK | KGS | reference | 8.7981 |
-| SGD | KGS | reference | 68.4101 |
-| THB | KGS | reference | 2.5907 |
-| TJS | KGS | reference | 9.4915 |
+| MYR | KGS | reference | 21.5577 |
+| NOK | KGS | reference | 9.499 |
+| NZD | KGS | reference | 49.3692 |
+| OMR | KGS | reference | 227.1277 |
+| PKR | KGS | reference | 0.3161 |
+| PLN | KGS | reference | 22.2907 |
+| RUB | KGS | reference | 1.0782 |
+| SAR | KGS | reference | 23.3023 |
+| SEK | KGS | reference | 8.9074 |
+| SGD | KGS | reference | 68.4503 |
+| THB | KGS | reference | 2.5953 |
+| TJS | KGS | reference | 9.4883 |
 | TMT | KGS | reference | 24.9853 |
-| TRY | KGS | reference | 1.7582 |
-| TWD | KGS | reference | 2.6831 |
-| UAH | KGS | reference | 1.9411 |
-| USD | KGS | reference | 87.448 |
-| UZS | KGS | reference | 0.00728 |
-| VND | KGS | reference | 0.00338 |
-| XDR | KGS | reference | 118.5792 |
+| TRY | KGS | reference | 1.7551 |
+| TWD | KGS | reference | 2.6833 |
+| UAH | KGS | reference | 1.9207 |
+| USD | KGS | reference | 87.4487 |
+| UZS | KGS | reference | 0.00725 |
+| VND | KGS | reference | 0.00339 |
+| XDR | KGS | reference | 118.2778 |
 
 </details>
 
