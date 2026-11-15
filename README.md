@@ -32,7 +32,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-14 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-11-13.</summary>
+<summary>Table as text: published 2026-11-14 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-11-15.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
