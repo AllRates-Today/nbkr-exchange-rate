@@ -32,7 +32,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-25 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-11-24.</summary>
+<summary>Table as text: published 2026-11-26 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-11-26.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -47,10 +47,10 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | BYR | KGS | reference | 0.003402 |
 | CAD | KGS | reference | 61.0322 |
 | CHF | KGS | reference | 103.7428 |
-| CNY | KGS | reference | 13.1206 |
+| CNY | KGS | reference | 13.103 |
 | CZK | KGS | reference | 3.924 |
 | DKK | KGS | reference | 12.831 |
-| EUR | KGS | reference | 95.4628 |
+| EUR | KGS | reference | 95.7053 |
 | GBP | KGS | reference | 114.5639 |
 | GEL | KGS | reference | 33.7215 |
 | HKD | KGS | reference | 11.1536 |
@@ -61,7 +61,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | JPY | KGS | reference | 0.54984 |
 | KRW | KGS | reference | 0.0654 |
 | KWD | KGS | reference | 283.0097 |
-| KZT | KGS | reference | 0.1911 |
+| KZT | KGS | reference | 0.1907 |
 | MDL | KGS | reference | 4.7769 |
 | MNT | KGS | reference | 0.0242 |
 | MYR | KGS | reference | 21.258 |
@@ -70,7 +70,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | OMR | KGS | reference | 227.137 |
 | PKR | KGS | reference | 0.3164 |
 | PLN | KGS | reference | 21.566 |
-| RUB | KGS | reference | 1.0678 |
+| RUB | KGS | reference | 1.0639 |
 | SAR | KGS | reference | 23.3082 |
 | SEK | KGS | reference | 8.571 |
 | SGD | KGS | reference | 67.7933 |
@@ -80,7 +80,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | TRY | KGS | reference | 1.729 |
 | TWD | KGS | reference | 2.6507 |
 | UAH | KGS | reference | 1.941 |
-| USD | KGS | reference | 87.4442 |
+| USD | KGS | reference | 87.45 |
 | UZS | KGS | reference | 0.0073 |
 | VND | KGS | reference | 0.00339 |
 | XDR | KGS | reference | 117.5656 |
