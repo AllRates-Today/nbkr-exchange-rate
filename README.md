@@ -32,58 +32,58 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-27 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-11-27.</summary>
+<summary>Table as text: published 2026-11-28 by National Bank of the Kyrgyz Republic — 48 rates. Updated 2026-11-28.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KGS | reference | 23.8098 |
-| AFN | KGS | reference | 1.3448 |
-| AMD | KGS | reference | 0.24228 |
-| AUD | KGS | reference | 58.2942 |
+| AED | KGS | reference | 23.8095 |
+| AFN | KGS | reference | 1.3058 |
+| AMD | KGS | reference | 0.24273 |
+| AUD | KGS | reference | 58.3991 |
 | AZN | KGS | reference | 51.4412 |
-| BHD | KGS | reference | 231.8214 |
-| BRL | KGS | reference | 14.7512 |
-| BYN | KGS | reference | 29.2055 |
+| BHD | KGS | reference | 231.9444 |
+| BRL | KGS | reference | 15.4709 |
+| BYN | KGS | reference | 29.0908 |
 | BYR | KGS | reference | 0.003402 |
-| CAD | KGS | reference | 61.0322 |
-| CHF | KGS | reference | 103.7428 |
-| CNY | KGS | reference | 13.1308 |
-| CZK | KGS | reference | 3.924 |
-| DKK | KGS | reference | 12.831 |
-| EUR | KGS | reference | 95.9152 |
-| GBP | KGS | reference | 114.5639 |
-| GEL | KGS | reference | 33.7215 |
-| HKD | KGS | reference | 11.1536 |
-| HUF | KGS | reference | 0.25753 |
-| IDR | KGS | reference | 0.00479 |
-| INR | KGS | reference | 0.9423 |
+| CAD | KGS | reference | 61.3964 |
+| CHF | KGS | reference | 104.5677 |
+| CNY | KGS | reference | 13.1417 |
+| CZK | KGS | reference | 3.9243 |
+| DKK | KGS | reference | 12.8308 |
+| EUR | KGS | reference | 95.8889 |
+| GBP | KGS | reference | 114.7912 |
+| GEL | KGS | reference | 33.7423 |
+| HKD | KGS | reference | 11.1685 |
+| HUF | KGS | reference | 0.25914 |
+| IDR | KGS | reference | 0.00478 |
+| INR | KGS | reference | 0.9413 |
 | IRR | KGS | reference | 0.000045 |
-| JPY | KGS | reference | 0.54984 |
-| KRW | KGS | reference | 0.0654 |
-| KWD | KGS | reference | 283.0097 |
-| KZT | KGS | reference | 0.1905 |
-| MDL | KGS | reference | 4.7769 |
+| JPY | KGS | reference | 0.54845 |
+| KRW | KGS | reference | 0.0656 |
+| KWD | KGS | reference | 283.1013 |
+| KZT | KGS | reference | 0.1909 |
+| MDL | KGS | reference | 4.7647 |
 | MNT | KGS | reference | 0.0242 |
-| MYR | KGS | reference | 21.258 |
-| NOK | KGS | reference | 8.9426 |
-| NZD | KGS | reference | 48.1106 |
+| MYR | KGS | reference | 21.2129 |
+| NOK | KGS | reference | 8.9986 |
+| NZD | KGS | reference | 47.9751 |
 | OMR | KGS | reference | 227.137 |
-| PKR | KGS | reference | 0.3164 |
-| PLN | KGS | reference | 21.566 |
-| RUB | KGS | reference | 1.0575 |
-| SAR | KGS | reference | 23.3082 |
-| SEK | KGS | reference | 8.571 |
-| SGD | KGS | reference | 67.7933 |
-| THB | KGS | reference | 2.5785 |
-| TJS | KGS | reference | 9.4922 |
+| PKR | KGS | reference | 0.3165 |
+| PLN | KGS | reference | 21.4643 |
+| RUB | KGS | reference | 1.0657 |
+| SAR | KGS | reference | 23.3107 |
+| SEK | KGS | reference | 8.5706 |
+| SGD | KGS | reference | 67.8275 |
+| THB | KGS | reference | 2.5815 |
+| TJS | KGS | reference | 9.4464 |
 | TMT | KGS | reference | 24.9857 |
-| TRY | KGS | reference | 1.729 |
-| TWD | KGS | reference | 2.6507 |
-| UAH | KGS | reference | 1.941 |
+| TRY | KGS | reference | 1.7219 |
+| TWD | KGS | reference | 2.654 |
+| UAH | KGS | reference | 1.9387 |
 | USD | KGS | reference | 87.45 |
-| UZS | KGS | reference | 0.0073 |
-| VND | KGS | reference | 0.00339 |
-| XDR | KGS | reference | 117.5656 |
+| UZS | KGS | reference | 0.00729 |
+| VND | KGS | reference | 0.00338 |
+| XDR | KGS | reference | 117.3353 |
 
 </details>
 
